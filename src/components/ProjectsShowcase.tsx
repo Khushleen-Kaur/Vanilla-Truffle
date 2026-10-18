@@ -41,7 +41,7 @@ export const ProjectsShowcase: React.FC = () => {
           Chapter 03 · Enchanted Creations
         </p>
         <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-purple-950 dark:text-white mt-1">
-          Four Magical Masterpieces
+          Some Magical Masterpieces
         </h2>
         <p className="text-sm sm:text-base text-purple-800/80 dark:text-purple-200/80 mt-2">
           Hand-crafted pastries with bizarre and hilarious magical side effects. Click any recipe card to read the lore and take a test bite!

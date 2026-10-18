@@ -352,7 +352,7 @@ export const DragonChatSection: React.FC = () => {
     {
       id: 'welcome-1',
       sender: 'dragon',
-      text: "Hullo! I'm Vanilla Truffle, Odin's junior pastry dragon! Ask me anything about our 1880 bakery secrets, why I broke that porcelain lamp, or how to caramelize sugar with baby dragon breath!",
+      text: "Yo! I'm Vanilla Truffle, Odin's junior pastry dragon! Ask me anything about our 1880 bakery secrets, why I broke that porcelain lamp, or how to caramelize sugar with baby dragon breath!",
       timestamp: 'Just now',
       mood: 'happy',
       actionNote: '*waves wooden spoon cheerfully*',
