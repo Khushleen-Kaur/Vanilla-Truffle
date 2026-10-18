@@ -180,7 +180,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               { id: 'profession', label: 'Profession' },
               { id: 'projects', label: 'Projects' },
               { id: 'origin-story', label: 'Origin Story' },
-              { id: 'mini-game', label: 'Mini Game' },
+              { id: 'mini-game', label: 'Kitchen Lab' },
               { id: 'dragon-chat', label: 'Chat 💬' },
             ].map((item) => (
               <button

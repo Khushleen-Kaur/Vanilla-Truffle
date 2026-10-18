@@ -198,7 +198,7 @@ export const CookingGameSection: React.FC<CookingGameSectionProps> = ({
           <span>Interactive Mini-Game</span>
         </div>
         <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-purple-950 dark:text-white mt-1">
-          Vanilla’s Magical Kitchen Lab 🧪✨
+          ✨ Vanilla Truffle’s Magical Kitchen Lab ✨
         </h2>
         <p className="text-sm sm:text-base text-purple-800/80 dark:text-purple-200/80 mt-2">
           Add sweet ingredients into the cauldron, listen to the Kitchen Lab music box, and discover whether you brew perfection or a dragon-flame disaster!
@@ -220,9 +220,9 @@ export const CookingGameSection: React.FC<CookingGameSectionProps> = ({
                 <Music className="w-3.5 h-3.5 text-pink-500" />
                 <span>Kitchen Lab Real Audio</span>
               </span>
-              <span className="text-[10px] px-2 py-0.5 rounded-full bg-purple-200 dark:bg-purple-800 font-mono text-purple-800 dark:text-purple-200">
+              {/* <span className="text-[10px] px-2 py-0.5 rounded-full bg-purple-200 dark:bg-purple-800 font-mono text-purple-800 dark:text-purple-200">
                 Kitchen_Lab_Sound.mp3
-              </span>
+              </span> */}
             </div>
             <p className="text-xs text-purple-900/80 dark:text-purple-300/80 font-serif-story italic">
               {isAudioPlaying
