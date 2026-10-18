@@ -88,6 +88,6 @@ export const BUTTERFLY_STORY_SCENES = [
     step: 6,
     title: 'A Peaceful Crown',
     text: 'Vanilla bowed his head, ears drooping in shame. But just then, the shimmering butterfly fluttered down and rested right on top of Vanilla’s pink hair tuft. Odin couldn’t help but chuckle warmly.',
-    image: '/src/assets/images/story_butterfly_1792330589222.jpg'
+    image: '/assets/images/story_butterfly_1792330589222.jpg'
   }
 ];

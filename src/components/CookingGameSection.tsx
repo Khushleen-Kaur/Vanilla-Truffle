@@ -496,7 +496,7 @@ export const CookingGameSection: React.FC<CookingGameSectionProps> = ({
                   <div className="flex items-center gap-3">
                     <div className="w-14 h-14 rounded-xl overflow-hidden shrink-0 border border-indigo-200">
                       <img
-                        src="/src/assets/images/recipe_marshmallow_1792330608865.jpg"
+                        src="/assets/images/recipe_marshmallow_1792330608865.jpg"
                         alt="Active Marshmallow"
                         referrerPolicy="no-referrer"
                         className="w-full h-full object-cover"
