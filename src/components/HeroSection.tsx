@@ -116,11 +116,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onReplayIntro }) => {
             <Dragon3D mood={mood} isOuch={isOuch} onClick={handleDragonClick} />
 
             {/* Click prompt overlay hint */}
-            <div className="text-center mt-[-10px] mb-2">
+            {/* <div className="text-center mt-[-10px] mb-2">
               <span className="inline-block px-3 py-1 bg-purple-900/40 dark:bg-purple-900/70 border border-purple-300/40 dark:border-purple-700/60 rounded-full text-xs font-semibold text-purple-900 dark:text-purple-200 backdrop-blur-sm shadow-sm animate-pulse">
-                Interactive 3D Baby Dragon · Tap me to say hi! 🐉
+                Interactive 3D Baby Dragon · Tap me to say hi! 
               </span>
-            </div>
+            </div> */}
 
             {/* Reactive Speech Bubble when Clicked */}
             {isOuch && (

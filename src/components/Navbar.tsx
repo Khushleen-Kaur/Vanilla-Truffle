@@ -73,7 +73,11 @@ export const Navbar: React.FC<NavbarProps> = ({
           }}
           className="flex items-center gap-2 text-base sm:text-lg font-bold tracking-tight text-purple-950 dark:text-purple-100 whitespace-nowrap shrink-0 hover:text-purple-700 dark:hover:text-purple-300 transition-colors"
         >
-          <span className="text-xl" role="img" aria-label="dragon pastry">🍰🐉</span>
+          <span className="text-xl" role="img" aria-label="dragon pastry"><img
+                  src="assets\Vanilla-Truffle-withoutbg.png"
+                  alt="Vanilla-Truffle"
+                  className="w-5 h-5 object-cover"
+                /></span>
           <span className="font-display">Vanilla Truffle</span>
         </a>
 
