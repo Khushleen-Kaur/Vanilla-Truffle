@@ -61,10 +61,11 @@ export const FooterSection: React.FC = () => {
 
           <div>
             <p className="font-bold text-purple-950 dark:text-purple-100 mb-1">
-              
+              Vanilla Truffle Voice 
             </p>
             <p>
-              Procedural Web Audio API sound synthesizer with zero external audio latency, paired with fallback integration for <code>assets/audio/Vanilla_Truffle_Voice.mp3</code>.
+            Youtube Channel: 3D-Disco <a href="https://www.youtube.com/watch?v=UbzM2g5R390">Link</a>
+
             </p>
           </div>
 
