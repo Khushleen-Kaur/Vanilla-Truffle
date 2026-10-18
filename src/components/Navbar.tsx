@@ -73,7 +73,11 @@ export const Navbar: React.FC<NavbarProps> = ({
           }}
           className="flex items-center gap-2 text-base sm:text-lg font-bold tracking-tight text-purple-950 dark:text-purple-100 whitespace-nowrap shrink-0 hover:text-purple-700 dark:hover:text-purple-300 transition-colors"
         >
-          <span className="text-xl" role="img" aria-label="dragon pastry">🍰🐉</span>
+          <span className="text-xl" role="img" aria-label="dragon pastry"><img
+                  src="assets/images/Vanilla-Truffle-withoutbg.png"
+                  alt="Vanilla-Truffle"
+                  className="w-5 h-5 object-cover"
+                /></span>
           <span className="font-display">Vanilla Truffle</span>
         </a>
 
@@ -120,7 +124,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 aria-label="Active Marshmallow Trophy"
               >
                 <img
-                  src="/src/assets/images/recipe_marshmallow_1792330608865.jpg"
+                  src="/assets/images/recipe_marshmallow_1792330608865.jpg"
                   alt="Active Marshmallow"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"

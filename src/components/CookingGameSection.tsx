@@ -289,7 +289,7 @@ export const CookingGameSection: React.FC<CookingGameSectionProps> = ({
         {/* Flame Disaster Overlay */}
         {isFlameDisaster && (
           <div className="absolute inset-0 z-20 bg-red-950/40 backdrop-blur-sm flex flex-col items-center justify-center p-6 text-center animate-fade-in pointer-events-none">
-            <span className="text-6xl animate-bounce">🔥🐉🔥</span>
+            <span className="text-6xl animate-bounce">🔥🙊🔥</span>
             <h3 className="text-2xl sm:text-3xl font-black text-amber-200 tracking-wide mt-2">
               DRAGON-FLAME DISASTER!
             </h3>
@@ -496,7 +496,7 @@ export const CookingGameSection: React.FC<CookingGameSectionProps> = ({
                   <div className="flex items-center gap-3">
                     <div className="w-14 h-14 rounded-xl overflow-hidden shrink-0 border border-indigo-200">
                       <img
-                        src="/src/assets/images/recipe_marshmallow_1792330608865.jpg"
+                        src="/assets/images/recipe_marshmallow_1792330608865.jpg"
                         alt="Active Marshmallow"
                         referrerPolicy="no-referrer"
                         className="w-full h-full object-cover"

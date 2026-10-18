@@ -260,7 +260,7 @@ export const BonusStoryModal: React.FC<BonusStoryModalProps> = ({ onClose }) => 
       return (
         <div className="w-full h-full flex flex-col items-center justify-center p-6 sm:p-10 text-center bg-gradient-to-br from-[#FFFDF9] to-[#F7EFE0] dark:from-[#201530] dark:to-[#170D27] text-purple-950 dark:text-white select-none">
           <div className="max-w-xs space-y-4">
-            <div className="text-4xl animate-bounce">✨🐉✨</div>
+            <div className="text-4xl animate-bounce">✨🦋✨</div>
             <h3 className="text-2xl font-display font-bold">
               The Kitchen is Warm Again
             </h3>
