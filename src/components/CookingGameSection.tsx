@@ -228,7 +228,7 @@ export const CookingGameSection: React.FC<CookingGameSectionProps> = ({
               {isAudioPlaying
                 ? isAudioMuted
                   ? 'Melody paused by mute switch (sound muted)'
-                  : 'Playing sweet fairytale music-box waltz & synth...'
+                  : 'Playing sweet fairytale music!'
                 : 'Music Box is sleeping. Click Play to start ambient lab audio!'}
             </p>
           </div>

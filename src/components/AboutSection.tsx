@@ -83,35 +83,35 @@ export const AboutSection: React.FC = () => {
 
               <dl className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
                 <div className="p-3 rounded-xl bg-purple-50/80 dark:bg-purple-950/40 border border-purple-100 dark:border-purple-800/60">
-                  <dt className="text-xs font-semibold text-purple-600 dark:text-purple-400 uppercase">1. Species & Age</dt>
+                  <dt className="text-xs font-semibold text-purple-600 dark:text-purple-400 uppercase">Species & Age</dt>
                   <dd className="font-medium text-purple-950 dark:text-purple-100 mt-0.5">
                     Baby Dragon · 2 Years Old
                   </dd>
                 </div>
 
                 <div className="p-3 rounded-xl bg-purple-50/80 dark:bg-purple-950/40 border border-purple-100 dark:border-purple-800/60">
-                  <dt className="text-xs font-semibold text-purple-600 dark:text-purple-400 uppercase">2. Profession</dt>
+                  <dt className="text-xs font-semibold text-purple-600 dark:text-purple-400 uppercase">Profession</dt>
                   <dd className="font-medium text-purple-950 dark:text-purple-100 mt-0.5">
                     Junior Chef & Master Chef in Progress
                   </dd>
                 </div>
 
                 <div className="sm:col-span-2 p-3 rounded-xl bg-purple-50/80 dark:bg-purple-950/40 border border-purple-100 dark:border-purple-800/60">
-                  <dt className="text-xs font-semibold text-purple-600 dark:text-purple-400 uppercase">3. Appearance</dt>
+                  <dt className="text-xs font-semibold text-purple-600 dark:text-purple-400 uppercase">Appearance</dt>
                   <dd className="text-xs sm:text-sm text-purple-900 dark:text-purple-200 mt-0.5 leading-relaxed">
                     Tiny, soft pastel-purple scales with an oversized head, glossy blue eyes, small horns, a signature pink-and-lavender hair tuft, delicate wings, rounded belly, curling tail, and a puffy white chef hat tilted with swagger.
                   </dd>
                 </div>
 
                 <div className="sm:col-span-2 p-3 rounded-xl bg-purple-50/80 dark:bg-purple-950/40 border border-purple-100 dark:border-purple-800/60">
-                  <dt className="text-xs font-semibold text-purple-600 dark:text-purple-400 uppercase">4. Core Quirk</dt>
+                  <dt className="text-xs font-semibold text-purple-600 dark:text-purple-400 uppercase">Core Quirk</dt>
                   <dd className="text-xs sm:text-sm text-purple-900 dark:text-purple-200 mt-0.5 leading-relaxed">
                     Unshakably convinced he is the greatest culinary artist in the world, even when his soufflés hover three feet in the air or turn into musical puffs.
                   </dd>
                 </div>
 
                 <div className="sm:col-span-2 p-3 rounded-xl bg-purple-50/80 dark:bg-purple-950/40 border border-purple-100 dark:border-purple-800/60">
-                  <dt className="text-xs font-semibold text-purple-600 dark:text-purple-400 uppercase">5. Tagline & Motive</dt>
+                  <dt className="text-xs font-semibold text-purple-600 dark:text-purple-400 uppercase">Tagline & Motive</dt>
                   <dd className="text-xs sm:text-sm text-purple-900 dark:text-purple-200 mt-0.5 font-serif-story italic">
                     “Made with vanilla, mischief, and a pinch of dragon dust.” To turn every boring breakfast into an unforgettable adventure.
                   </dd>
@@ -131,7 +131,7 @@ export const AboutSection: React.FC = () => {
           </p>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-purple-950 dark:text-white mt-1">
-            Vanilla’s 4 Quirky Personalities
+            Vanilla’s Quirky Personalities
           </h2>
           {/* <p className="text-sm sm:text-base text-purple-800/80 dark:text-purple-200/80 mt-2">
             Click each personality pillar to discover how it impacts life in the kitchen.

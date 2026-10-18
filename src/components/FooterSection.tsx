@@ -33,7 +33,7 @@ export const FooterSection: React.FC = () => {
                 “Made with vanilla, mischief, and a pinch of dragon dust.”
               </p>
               <p className="text-[11px] text-purple-600/70 dark:text-purple-400 mt-1">
-                haX.baby 48-Hour Hackathon · Track 2: Original Character Portfolio
+                {/* haX.baby 48-Hour Hackathon · Track 2: Original Character Portfolio */}
               </p>
             </div>
           </div>
@@ -64,8 +64,10 @@ export const FooterSection: React.FC = () => {
               Vanilla Truffle Voice 
             </p>
             <p>
-            Youtube Channel: 3D-Disco <a href="https://www.youtube.com/watch?v=UbzM2g5R390">Link</a>
-
+            Youtube Channel: 3D-Disco 
+            </p>
+            <p>
+              click: <a href="https://www.youtube.com/watch?v=UbzM2g5R390">Link</a>
             </p>
           </div>
 
