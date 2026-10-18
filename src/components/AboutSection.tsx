@@ -53,7 +53,7 @@ export const AboutSection: React.FC = () => {
             <div className="w-full lg:w-5/12 flex flex-col items-center">
               <div className="relative w-56 h-56 sm:w-64 sm:h-64 rounded-2xl overflow-hidden border-2 border-purple-300 dark:border-purple-700 shadow-lg bg-purple-50 dark:bg-purple-950">
                 <img
-                  src="/src/assets/images/vanilla_chef_main_1792330588106.jpg"
+                  src="/assets/images/vanilla_chef_main_1792330588106.jpg"
                   alt="Vanilla Truffle sitting by his teacup"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
@@ -72,12 +72,12 @@ export const AboutSection: React.FC = () => {
 
             {/* Right: The 5-Point Character Sheet */}
             <div className="w-full lg:w-7/12 space-y-4">
-              <div className="flex items-center gap-2 pb-2 border-b border-purple-100 dark:border-purple-800">
+              {/* <div className="flex items-center gap-2 pb-2 border-b border-purple-100 dark:border-purple-800">
                 <BookOpen className="w-5 h-5 text-purple-600 dark:text-purple-400" />
                 <h3 className="text-lg font-bold text-purple-950 dark:text-white font-display">
                   Official 5-Point Character Sheet
                 </h3>
-              </div>
+              </div> */}
 
               <dl className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
                 <div className="p-3 rounded-xl bg-purple-50/80 dark:bg-purple-950/40 border border-purple-100 dark:border-purple-800/60">
@@ -129,9 +129,9 @@ export const AboutSection: React.FC = () => {
           <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-purple-950 dark:text-white mt-1">
             Vanilla’s 4 Quirky Personalities
           </h2>
-          <p className="text-sm sm:text-base text-purple-800/80 dark:text-purple-200/80 mt-2">
+          {/* <p className="text-sm sm:text-base text-purple-800/80 dark:text-purple-200/80 mt-2">
             Click each personality pillar to discover how it impacts life in the kitchen.
-          </p>
+          </p> */}
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

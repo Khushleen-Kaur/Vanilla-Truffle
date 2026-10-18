@@ -19,7 +19,7 @@ export const FooterSection: React.FC = () => {
           <div className="flex items-center gap-4 text-center md:text-left">
             <div className="w-16 h-16 rounded-2xl overflow-hidden shrink-0 border border-purple-300 dark:border-purple-700 shadow-sm bg-purple-200 dark:bg-purple-900">
               <img
-                src="/src/assets/images/vanilla_chef_main_1792330588106.jpg"
+                src="/assets/images/vanilla_chef_main_1792330588106.jpg"
                 alt="Vanilla Truffle"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"
