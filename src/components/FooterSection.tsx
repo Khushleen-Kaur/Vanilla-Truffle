@@ -52,16 +52,16 @@ export const FooterSection: React.FC = () => {
         <div className="pt-8 grid grid-cols-1 md:grid-cols-3 gap-6 text-xs text-purple-800/70 dark:text-purple-300/70">
           <div>
             <p className="font-bold text-purple-950 dark:text-purple-100 mb-1">
-              Original Character Design
+              Ideation and Implementation
             </p>
             <p>
-              Vanilla Truffle (Baby Dragon Junior Chef) created for haX.baby Track 2. Visual inspiration from master reference artwork and custom storybook watercolor renders.
+              Khushleen and Gopikrishna
             </p>
           </div>
 
           <div>
             <p className="font-bold text-purple-950 dark:text-purple-100 mb-1">
-              Audio & Sound Engine
+              
             </p>
             <p>
               Procedural Web Audio API sound synthesizer with zero external audio latency, paired with fallback integration for <code>assets/audio/Vanilla_Truffle_Voice.mp3</code>.
@@ -70,10 +70,10 @@ export const FooterSection: React.FC = () => {
 
           <div>
             <p className="font-bold text-purple-950 dark:text-purple-100 mb-1">
-              Typography & Craft
+              Created Using
             </p>
             <p>
-              Outfit, Plus Jakarta Sans, Playfair Display & Caveat via Google Fonts. Built with semantic HTML, Tailwind CSS, and reactive state management.
+              Google AI Studio
             </p>
           </div>
         </div>
