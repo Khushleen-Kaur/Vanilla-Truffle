@@ -119,6 +119,7 @@ export const ProjectsShowcase: React.FC = () => {
               <X className="w-5 h-5" />
             </button>
 
+
             {/* Modal Header */}
             <div className="flex items-start gap-4 mb-4">
               <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl overflow-hidden shrink-0 border border-purple-200 dark:border-purple-700 shadow-md">
