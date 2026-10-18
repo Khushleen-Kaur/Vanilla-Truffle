@@ -528,7 +528,7 @@ export const DragonChatSection: React.FC = () => {
       const dragonReply: ChatMessage = {
         id: `dragon-${Date.now()}`,
         sender: 'dragon',
-        text: `Squeak! I'm only a baby dragon pastry chef, so I only know about our 1880 kitchen, Master Odin, sweet recipes, and my broken lamp adventure! Pick any of my set questions below to hear all my secrets!`,
+        text: `Squeak! I'm only a baby dragon pastry chef, so I only know about our 1880 kitchen, Master Odin, sweet recipes, and my broken lamp adventure! Pick any of my questions below to hear all my secrets!`,
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
         mood: 'happy',
         actionNote: '*taps wooden spoon playfully and points to question buttons below*',
@@ -585,7 +585,7 @@ export const DragonChatSection: React.FC = () => {
       <div className="text-center space-y-3 mb-8 sm:mb-10">
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-purple-100 dark:bg-purple-900/60 border border-purple-300 dark:border-purple-700 text-purple-800 dark:text-purple-200 text-xs font-bold tracking-widest uppercase shadow-xs">
           <MessageSquare className="w-3.5 h-3.5 text-pink-500 animate-pulse" />
-          <span>Interactive Dialogue · Set Questions & Answers</span>
+          <span>Questions & Answers</span>
         </div>
 
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-black font-display text-purple-950 dark:text-white tracking-tight">
@@ -593,7 +593,7 @@ export const DragonChatSection: React.FC = () => {
         </h2>
 
         <p className="text-sm sm:text-base text-purple-800/80 dark:text-purple-300/80 font-serif-story max-w-2xl mx-auto italic">
-          Pick any set question below or ask Vanilla directly to hear his authentic 1880 bakery secrets, broken lamp confessions, and marshmallow lore!
+          Pick any question below or ask Vanilla directly to hear his authentic 1880 bakery secrets, broken lamp confessions, and marshmallow lore!
         </p>
       </div>
 
@@ -606,7 +606,7 @@ export const DragonChatSection: React.FC = () => {
             <div className="flex items-center gap-2">
               <BookOpen className="w-4 h-4 text-pink-500" />
               <h3 className="font-display font-bold text-base text-purple-950 dark:text-purple-100">
-                Ask a Set Question
+                Ask a Question
               </h3>
             </div>
             <span className="text-[11px] font-mono font-semibold px-2 py-0.5 rounded-full bg-purple-100 dark:bg-purple-900/80 text-purple-700 dark:text-purple-300">
@@ -619,7 +619,7 @@ export const DragonChatSection: React.FC = () => {
             <Search className="w-3.5 h-3.5 text-purple-400 absolute left-3 top-1/2 -translate-y-1/2" />
             <input
               type="text"
-              placeholder="Search set questions (e.g., lamp, souffle, odin)..."
+              placeholder="Search questions (e.g., lamp, souffle, odin)..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full pl-8 pr-3 py-1.5 text-xs rounded-xl bg-purple-50/70 dark:bg-purple-950/50 border border-purple-200 dark:border-purple-800 text-purple-900 dark:text-purple-100 placeholder-purple-400 focus:outline-hidden focus:ring-1 focus:ring-purple-400"
@@ -890,7 +890,7 @@ export const DragonChatSection: React.FC = () => {
               type="text"
               value={inputText}
               onChange={(e) => setInputText(e.target.value)}
-              placeholder="Ask a question or pick one from the set above..."
+              placeholder="Ask a question or pick one from the above..."
               disabled={isTyping}
               className="flex-1 px-4 py-2.5 text-xs sm:text-sm rounded-xl bg-white dark:bg-[#231238] border border-purple-200 dark:border-purple-800 text-purple-950 dark:text-white placeholder-purple-400 focus:outline-hidden focus:ring-2 focus:ring-pink-500/50 shadow-inner"
             />
