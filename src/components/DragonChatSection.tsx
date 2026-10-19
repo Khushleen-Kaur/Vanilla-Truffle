@@ -698,10 +698,34 @@ export const DragonChatSection: React.FC = () => {
               <div className="relative">
                 <div className="w-11 h-11 rounded-2xl bg-gradient-to-tr from-purple-600 via-pink-500 to-amber-300 p-0.5 shadow-md flex items-center justify-center">
                   <div className="w-full h-full rounded-2xl bg-white dark:bg-[#1f1035] flex items-center justify-center text-xl select-none">
-                    {activeMood === 'happy' && '😁'}
-                    {activeMood === 'mischievous' && '🧁'}
-                    {activeMood === 'surprised' && '✨'}
-                    {activeMood === 'sleepy' && '💤'}
+                    {activeMood === 'happy'  && (
+          <img
+            src="/assets/images/Vanilla-Truffle.jpeg"
+            alt="Happy"
+            className="w-8 h-8 object-contain"
+          />
+        )}
+                    {activeMood === 'mischievous' && (
+          <img
+            src="/assets/images/Vanilla-Truffle.jpeg"
+            alt="Happy"
+            className="w-8 h-8 object-contain"
+          />
+        )}
+                    {activeMood === 'surprised'  && (
+          <img
+            src="/assets/images/Vanilla-Truffle.jpeg"
+            alt="Happy"
+            className="w-8 h-8 object-contain"
+          />
+        )}
+                    {activeMood === 'sleepy'  && (
+          <img
+            src="/assets/images/Vanilla-Truffle.jpeg"
+            alt="Happy"
+            className="w-8 h-8 object-contain"
+          />
+        )}
                   </div>
                 </div>
                 {/* Active Indicator */}

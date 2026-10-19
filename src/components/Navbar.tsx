@@ -76,7 +76,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           <span className="text-xl" role="img" aria-label="dragon pastry"><img
                   src="/assets/images/Vanilla-Truffle-withoutbg.png"
                   alt="Vanilla-Truffle"
-                  className="w-5 h-5 object-cover"
+                  className="w-10 h-10 object-cover"
                 /></span>
           <span className="font-display">Vanilla Truffle</span>
         </a>
