@@ -10,9 +10,9 @@ export const AboutSection: React.FC = () => {
 title: 'Smart & Inventive',
   icon: (
     <img
-      src="public/assets/images/Temperament01.png"
+      src="../../public/assets/images/Temperament01.png"
       alt="Vanilla Truffle"
-      className="w-5 h-5 object-contain"
+      className="w-40 h-40 object-cover"
     />
   ),
   //icon: <Brain className="w-5 h-5 text-indigo-500" />
@@ -23,9 +23,9 @@ playful: {
   title: 'Passionate & Playful',
   icon: (
     <img
-      src="public/assets/images/Temperament02.png"
+      src="../../public/assets/images/Temperament02.png"
       alt="Vanilla Truffle"
-      className="w-5 h-5 object-contain"
+      className="w-40 h-40 object-cover"
     />
   ),
   // icon: <Smile className="w-5 h-5 text-pink-500" />,
@@ -35,9 +35,9 @@ mischievous: {
   title: 'Lovably Mischievous',
   icon: (
     <img
-      src="public/assets/images/Temperament03.png"
+      src="/public/assets/images/Temperament03.png"
       alt="Vanilla Truffle"
-      className="w-5 h-5 object-contain"
+      className="w-40 h-40 object-cover"
     />
   ),
   // icon: <AlertCircle className="w-5 h-5 text-purple-500" />,
@@ -47,9 +47,9 @@ curious: {
   title: 'Endlessly Curious',
   icon: (
     <img
-      src="public/assets/images/Temperament04.png"
+      src="/public/assets/images/Temperament04.png"
       alt="Vanilla Truffle"
-      className="w-5 h-5 object-contain"
+      className="w-40 h-40 object-cover"
     />
   ),
   // icon: <Compass className="w-5 h-5 text-amber-500" />,
@@ -184,7 +184,7 @@ curious: {
                     : 'bg-white/60 dark:bg-purple-950/40 border-purple-200 dark:border-purple-800/60 hover:bg-white dark:hover:bg-purple-900/50'
                 }`}
               >
-                <div className="w-10 h-10 rounded-xl bg-purple-100 dark:bg-purple-900/60 flex items-center justify-center mb-3">
+                <div className="w-45 h-45 center rounded-xl bg-purple-100 dark:bg-purple-900/60 flex items-center justify-center mb-3 mx-auto">
                   {pillar.icon}
                 </div>
                 <h4 className="font-bold text-base text-purple-950 dark:text-purple-100 font-display">
