@@ -7,24 +7,52 @@ export const AboutSection: React.FC = () => {
 
   const personalityPillars = {
     smart: {
-      title: 'Smart & Inventive',
-      icon:  <img src={"public/assets/images/Temperament01.png"} alt="Vanilla Truffle" width="300" />
-,
-      detail: 'Designs complex flavor alchemies on parchment napkins. Can calculate the exact boiling point of enchanted sugar in his head!'
-    },
-    playful: {
-      title: 'Passionate & Playful',
-      icon: <Smile className="w-5 h-5 text-pink-500" />,
-      detail: 'Treats mixing bowls like mini trampolines and loves balancing strawberries on his nose during rising time.'
-    },
-    mischievous: {
-      title: 'Lovably Mischievous',
-      icon: <AlertCircle className="w-5 h-5 text-purple-500" />,
-      detail: 'Regularly slips a pinch of shimmering dragon dust into Odin’s secret pantry jars while nobody is watching.'
-    },
-    curious: {
-      title: 'Endlessly Curious',
-      icon: <Compass className="w-5 h-5 text-amber-500" />,
+title: 'Smart & Inventive',
+  icon: (
+    <img
+      src="public/assets/images/Temperament01.png"
+      alt="Vanilla Truffle"
+      className="w-5 h-5 object-contain"
+    />
+  ),
+  //icon: <Brain className="w-5 h-5 text-indigo-500" />
+  detail:
+  'Designs complex flavor alchemies on parchment napkins. Can calculate the exact boiling point of enchanted sugar in his head!'
+},
+playful: {
+  title: 'Passionate & Playful',
+  icon: (
+    <img
+      src="public/assets/images/Temperament02.png"
+      alt="Vanilla Truffle"
+      className="w-5 h-5 object-contain"
+    />
+  ),
+  // icon: <Smile className="w-5 h-5 text-pink-500" />,
+  detail: 'Treats mixing bowls like mini trampolines and loves balancing strawberries on his nose during rising time.'
+},
+mischievous: {
+  title: 'Lovably Mischievous',
+  icon: (
+    <img
+      src="public/assets/images/Temperament03.png"
+      alt="Vanilla Truffle"
+      className="w-5 h-5 object-contain"
+    />
+  ),
+  // icon: <AlertCircle className="w-5 h-5 text-purple-500" />,
+  detail: 'Regularly slips a pinch of shimmering dragon dust into Odin’s secret pantry jars while nobody is watching.'
+},
+curious: {
+  title: 'Endlessly Curious',
+  icon: (
+    <img
+      src="public/assets/images/Temperament04.png"
+      alt="Vanilla Truffle"
+      className="w-5 h-5 object-contain"
+    />
+  ),
+  // icon: <Compass className="w-5 h-5 text-amber-500" />,
       detail: 'Inspects every unfamiliar herb, spice drawer, and whistling kettle with wide, fascinated blue eyes.'
     }
   };
