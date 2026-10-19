@@ -18,7 +18,7 @@ Meet Vanilla Truffle, an adorable two-year-old purple baby dragon who dreams of 
   <tr>
     <td width="35%" align="center" valign="middle">
       <img
-        src="assets/Vanilla-Truffle-withoutbg.png"
+        src="public/assets/images/Vanilla-Truffle.jpeg"
         alt="Vanilla Truffle, the baby dragon chef"
         width="280"
       />
@@ -39,7 +39,6 @@ Meet Vanilla Truffle, an adorable two-year-old purple baby dragon who dreams of 
 
 Vanilla may be tiny, but his culinary ambitions are enormous. Whether he creates a delicious dessert or accidentally causes a dragon-flame disaster, every experiment becomes another story worth telling.
 
-    </td>
   </tr>
 </table>
 

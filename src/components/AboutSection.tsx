@@ -10,7 +10,7 @@ export const AboutSection: React.FC = () => {
 title: 'Smart & Inventive',
   icon: (
     <img
-      src="/assets/images/Temperament01.png"
+      src="public/assets/images/Temperament01.png"
       alt="Vanilla Truffle"
       className="w-5 h-5 object-contain"
     />
@@ -23,7 +23,7 @@ playful: {
   title: 'Passionate & Playful',
   icon: (
     <img
-      src="/assets/images/Temperament02.png"
+      src="public/assets/images/Temperament02.png"
       alt="Vanilla Truffle"
       className="w-5 h-5 object-contain"
     />
@@ -35,7 +35,7 @@ mischievous: {
   title: 'Lovably Mischievous',
   icon: (
     <img
-      src="/assets/images/Temperament03.png"
+      src="public/assets/images/Temperament03.png"
       alt="Vanilla Truffle"
       className="w-5 h-5 object-contain"
     />
@@ -47,7 +47,7 @@ curious: {
   title: 'Endlessly Curious',
   icon: (
     <img
-      src="/assets/images/Temperament04.png"
+      src="public/assets/images/Temperament04.png"
       alt="Vanilla Truffle"
       className="w-5 h-5 object-contain"
     />

@@ -69,6 +69,12 @@ export const FooterSection: React.FC = () => {
             <p>
               Youtube Video: <a href="https://www.youtube.com/watch?v=UbzM2g5R390" target="_blank">Link</a>
             </p>
+            <p className="font-bold text-purple-950 dark:text-purple-100 mb-1">
+              Kitchen Lab Music 
+            </p>
+            <p>
+              Composed by Google AI Studio 
+            </p>
           </div>
 
           <div>
