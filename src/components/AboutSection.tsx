@@ -8,7 +8,8 @@ export const AboutSection: React.FC = () => {
   const personalityPillars = {
     smart: {
       title: 'Smart & Inventive',
-      icon: <Brain className="w-5 h-5 text-indigo-500" />,
+      icon:  <img src={"public/assets/images/Temperament01.png"} alt="Vanilla Truffle" width="300" />
+,
       detail: 'Designs complex flavor alchemies on parchment napkins. Can calculate the exact boiling point of enchanted sugar in his head!'
     },
     playful: {
