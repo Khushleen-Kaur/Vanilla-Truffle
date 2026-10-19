@@ -67,7 +67,7 @@ export const FooterSection: React.FC = () => {
             Youtube Channel: 3D-Disco 
             </p>
             <p>
-              click: <a href="https://www.youtube.com/watch?v=UbzM2g5R390">Link</a>
+              Youtube Video: <a href="https://www.youtube.com/watch?v=UbzM2g5R390" target="_blank">Link</a>
             </p>
           </div>
 
